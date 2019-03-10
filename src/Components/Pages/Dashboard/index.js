@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './style.css';
 
-import Sidebar from '../dashNavbar/';
-import Content from '../Container/';
+import Sidebar from './dashSidebar/';
+import Content from './Container/';
 
 class Dashboard extends Component {
     render() {

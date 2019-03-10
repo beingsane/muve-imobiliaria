@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './style.css';
 
-import Navbar from '../Container/navbarContainer/';
-import Square from '../Container/squares/';
+import Navbar from '../navbarContainer/';
+import Square from '../squares/';
 
 class Container extends Component {
     render() {
