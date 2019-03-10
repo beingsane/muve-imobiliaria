@@ -1,0 +1,9 @@
+  .card {
+    margin: 0 auto; 
+  }
+  .card h1,h5, h6, p{
+    color: #FFFFFF;
+  }
+  .card h6{
+    color: #BDBDBD !important;
+  }

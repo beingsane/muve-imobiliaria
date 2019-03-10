@@ -1,0 +1,13 @@
+.breadcrumb{
+    background: #212121 !important;
+    margin-bottom: 0 !important;
+    width: calc(100% - 260px);
+    float: right;
+    line-height: 15px;
+    border-radius: 0 !important;
+}
+.crumbs{
+    color: #ffffff !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

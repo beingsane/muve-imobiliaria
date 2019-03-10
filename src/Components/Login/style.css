@@ -1,0 +1,7 @@
+.homeFirst {
+    background-color: #0288D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

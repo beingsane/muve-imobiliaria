@@ -1,0 +1,23 @@
+.row {
+    width: 100%;
+    margin: 0 !important;
+}
+.content{
+    background-color: #eeeeee;
+    width: calc(100% - 260px);
+    float: right;   
+    height: calc(100vh - 54px);
+    padding: 40px;  
+}
+.darkblue {
+    background: #303F9F !important;
+  }
+.accentblue {
+    background: #448AFF !important;
+}
+.lightblue{ 
+    background: #3F51B5 !important;
+}
+.verylight{
+    background: #03A9F4 !important;
+}
