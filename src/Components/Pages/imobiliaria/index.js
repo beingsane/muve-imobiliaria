@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './style.css';
+import './css/style.css';
 
 
 class Square extends Component {
@@ -7,45 +7,52 @@ class Square extends Component {
     return(
     <div>
 <div class="container-fluid first">
-    <div class="container text-center">
-      <h1 class="homeh1">IMOBILIARIA</h1>
-      <h4 class="homeh4">Nova casa, novo lar!</h4>
-    </div>
-
+  <div class="homeText">
+      <div class="container homeContainer">
+        <h1 class="homeh1 ">IMOBILIARIA</h1><br/>
+        <h4 class="homeh4 ">Nova casa, novo lar!</h4>
+      </div>
+  </div>
+  <div className="search">
     <div class="row conteudo text-center">
 
-    <div class="col ">
-    <label for="teste"><span class="descricao">O que voce procura:</span></label><br/>
-    <button class="btn btn-outline-secondary btn-comprar quarenta quadrado descricao" type="button">Comprar</button>
-    <button class="btn btn-outline-secondary btn-comprar quarenta quadrado descricao" type="button">Aluguel</button>
+<div class="col ">
+<label for="teste"><span class="descricao">O que voce procura:</span></label><br/>
+<button class="btn btn-outline-secondary btn-comprar quarenta quadrado descricao" type="button">Comprar</button>
+<button class="btn btn-outline-secondary btn-comprar quarenta quadrado descricao" type="button">Aluguel</button>
+</div>
+
+<div class="col ">
+<label for="teste"><span class="descricao">Tipo</span></label><br/>
+<select class="custom-select quarenta quadrado" id="inputGroupSelect02">
+   <option selected>Choose...</option>
+   <option value="1">One</option>
+   <option value="2">Two</option>
+   <option value="3">Three</option>
+ </select>
+
+</div>
+
+<div class="col ">
+<label for="teste"><span class="descricao">Onde?</span></label><br/>
+<select class="custom-select quarenta quadrado" id="inputGroupSelect02">
+   <option selected>Choose...</option>
+   <option value="1">One</option>
+   <option value="2">Two</option>
+   <option value="3">Three</option>
+ </select>
+</div>
+<div class="col ">
+  <label for="teste"><span class="descricao">Pesquisar por imóveis</span></label><br/>
+  <button class="btn btn-outline-secondary btn-pesquisar quarenta quadrado descricao" type="button">Pesquisar</button>
+</div>
+</div>
+
+  </div>
   </div>
 
-    <div class="col ">
-    <label for="teste"><span class="descricao">Tipo</span></label><br/>
-    <select class="custom-select quarenta quadrado" id="inputGroupSelect02">
-       <option selected>Choose...</option>
-       <option value="1">One</option>
-       <option value="2">Two</option>
-       <option value="3">Three</option>
-     </select>
 
-    </div>
 
-    <div class="col ">
-    <label for="teste"><span class="descricao">Onde?</span></label><br/>
-    <select class="custom-select quarenta quadrado" id="inputGroupSelect02">
-       <option selected>Choose...</option>
-       <option value="1">One</option>
-       <option value="2">Two</option>
-       <option value="3">Three</option>
-     </select>
-    </div>
-    <div class="col ">
-      <label for="teste"><span class="descricao">Pesquisar por imóveis</span></label><br/>
-      <button class="btn btn-outline-secondary btn-pesquisar quarenta quadrado descricao" type="button">Pesquisar</button>
-    </div>
-    </div>
-  </div>
 
   <div class="container-fluid second">
     <div class="container">
