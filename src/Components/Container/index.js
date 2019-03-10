@@ -3,14 +3,12 @@ import './style.css';
 
 import Navbar from '../Container/navbarContainer/';
 import Square from '../Container/squares/';
-import Breadcrumb from '../Container/breadcrumb/';
 
 class Container extends Component {
     render() {
         return (
             <div>              
                   <Navbar />
-                  <Breadcrumb />
                 <div className="content">
                 <div className="row">
                     <div className="col-lg-3">
