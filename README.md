@@ -5,4 +5,4 @@ This repository is a real state website/system. It was initial made on PHP, and 
 
 
 # Project
-![](.gifs/imobiliaria.gif).
+![](imobiliaria.gif).
